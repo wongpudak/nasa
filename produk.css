@@ -1,0 +1,124 @@
+#produkblock {
+	width: 30%;
+	min-width: 200px;
+	float: left;
+	border: solid 1px #cccccc;
+	margin: 10px;
+	padding: 10px;
+	display: block;
+}
+
+#produkbox {
+	height: 350px;
+	overflow: auto;
+}
+
+#produkpic {
+	width: 100%;
+	height: 200px;	
+}
+
+#produktitle {
+	font-weight: 900;
+	margin: 10px 0;
+}
+
+#produkactionbox {
+	margin-top: 10px;
+}
+
+#produkinfo {
+	padding:5px 15px;
+	display: block;
+	float: left;
+	background: #0F5DC1;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+	border-radius: 5px;
+}
+
+#produkinfo:hover {
+	background: #083674;
+}
+
+#produkorder {
+	padding:5px 15px;
+	display: block;
+	float: right;
+	background: #0DC152;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+	border-radius: 5px;
+}
+
+#produkorder:hover {
+	background: #088939;
+}
+
+.menuproduk {
+	width: 100%;
+	padding: 10px;
+}
+
+.leftmenuproduk {
+	width: 100%;
+	max-width: 500px;
+	float: left;
+}
+
+.rightmenuproduk {
+	width: 100%;
+	max-width: 400px;
+	float: right;
+}
+
+.searchproduk {
+	width: 60%;
+	max-width: 400px;
+	height: 35px;
+	border: solid 1px #cccccc;
+	padding: 2px 5px !important;
+}
+
+.submitsearch {
+	all: unset;
+	height: 20px;
+	margin: 0;	
+	padding: 5px 20px;
+	background: #0DC152;
+	border-radius: 5px;
+	color: #ffffff;
+}
+
+#pronavbar {
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
+
+a.pronavi {
+	padding: 2px 8px;
+	border: solid 1px #cccccc;
+	color: #484848;
+}
+
+a.proaktif {
+	padding: 2px 8px;
+	border: solid 1px #cccccc;
+	background: #484848;
+	color: #ffffff;
+	pointer-events: none;
+}
+
+@media (max-width: 477px) {
+	#produkblock {
+		width:98%;
+		border: solid 1px #cccccc;
+		margin: 10px;
+		padding: 10px;
+	}
+}
+
+

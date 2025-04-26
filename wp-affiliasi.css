@@ -1,0 +1,76 @@
+.dtree {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;font-size: 11px;color: #666;white-space: nowrap;width:100%;max-width: 200px;float:left;}
+.dtree img {border: 0px;vertical-align: middle;}
+.dtree a {color: #333;text-decoration: none;}
+.dtree a.node, .dtree a.nodeSel {white-space: nowrap;padding: 1px 2px 1px 2px;}
+.dtree a.node:hover, .dtree a.nodeSel:hover {color: #333;text-decoration: underline;}
+.dtree a.nodeSel {background-color: #c0d2ec;}
+.dtree .clip {overflow: hidden;}
+.dtree i {color: #cccccc;}
+.dtree i:hover {color: #000000;}
+.cbform-info {text-align:left;font-weight:700;padding:10px;margin: 10px 0 23px 0;background-color: #cccccc;display:block;}
+.cbform-row {  display: -webkit-box;  display: -ms-flexbox;  display: flex;  -ms-flex-wrap: wrap;  flex-wrap: wrap;  margin-bottom:13px;width:100%;vertical-align:middle;}
+.cbform-label {display:block;float:left;width:20%;min-width: 150px;padding-right:5px;font-weight:700;height:40px;}
+.cbform-field {margin-top:-8px;width:80%;text-align:left;}
+.cbform-input, .custom-file-input {padding: 5px 10px;width:95%;height:40px;border: 1px solid #cccccc;}
+#cbform-submit {padding: 5px 20px;border-radius: 5px;}
+.alert-success {  color: #155724;  background-color: #d4edda;  border-color: #c3e6cb;padding:10px;margin:10px;}
+.alert-danger {  color: #721c24;  background-color: #f8d7da;  border-color: #f5c6cb;padding:10px;margin:10px;}
+#produkblock {width: 30%;min-width: 200px;float: left;border: solid 1px #cccccc;margin: 10px;padding: 10px;display: block;}
+#produkbox {height: 400px;overflow: auto;}
+#produkpic {width: 100%;height: 200px;}
+#produktitle {font-weight: 900;margin: 10px 0;}
+#produkactionbox {margin-top: 10px;}
+#produkinfo {padding:5px 15px; display:block; text-decoration:none; float:left; background: #0F5DC1;text-align: center;font-weight: 700;color: white;border-radius: 5px;}
+#produkinfo:hover {background: #083674;}
+#produkorder {padding:5px 15px;display: block; text-decoration:none; float:right; background: #0DC152;text-align: center;font-weight: 700;color: white;border-radius: 5px;}
+#produkorder:hover {background: #088939;}
+.tombolhijau {padding:5px 15px; display: inline-block; text-decoration:none; background: #0DC152; text-align: center;font-weight: 700;color: white;border-radius: 5px;}
+.tombolhijau:hover {background: #088939;}
+.menuproduk {width: 100%;padding: 10px;}
+.leftmenuproduk {width: 100%;max-width: 500px;float: left;}
+.rightmenuproduk {width: 100%;max-width: 400px;float: right;}
+/* Jika tema menggunakan class tertentu, timpa style-nya */
+.searchproduk {
+    all: unset; /* Reset semua style */
+    width: 60% !important;
+    max-width: 400px !important;
+    height: 35px !important;
+    border: solid 1px #cccccc !important;
+    border-radius: 3px;
+    padding: 2px 5px !important;
+    box-sizing: border-box !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    background: #ffffff !important;
+    margin-right: 5px;
+}
+
+.submitsearch {
+    all: unset;
+    height: 25px; /* Pastikan tinggi sama dengan .searchproduk */
+    margin: 0;
+    padding: 5px 20px;
+    background: #0DC152;
+    border-radius: 3px;
+    color: #ffffff;
+    display: inline-flex; /* atau inline-block */
+    align-items: center; /* Untuk memastikan teks berada di tengah vertikal */
+    justify-content: center; /* Untuk memastikan teks berada di tengah horizontal */
+    cursor: pointer; /* Tambahkan pointer cursor untuk menunjukkan bahwa ini adalah tombol */
+}
+#pronavbar {width: 100%;text-align: center;padding: 10px;}
+a.pronavi {padding: 2px 8px;border: solid 1px #cccccc;color: #484848; display:inline-block; width: 40px;}
+a.proaktif {padding: 2px 8px;border: solid 1px #cccccc;background: #484848;color: #ffffff;pointer-events: none;display:inline-block; width: 40px;}
+@media (max-width: 477px) {
+	#produkblock {width:98%;border: solid 1px #cccccc;margin: 10px;padding: 10px;}
+}
+#downline1 {float:left;font-size:11px; width:100%; max-width:400px; overflow: hidden;}
+.geserkanan {margin:0; padding: 0 0 0 15px; background:url('img/line.gif') repeat-y;}
+.listmember {background:url('img/line.gif') repeat-y;}
+#detilprofil {      position: fixed; /* Stay in place */  z-index: 1; /* Sit on top */  top: 0;  left: 0;  width: 100%; /* Full width */  height: 100%; /* Full height */  overflow: auto; /* Enable scroll if needed */  background-color: rgb(0,0,0); /* Fallback color */  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */}
+a:hover {cursor:pointer;}
+#themember {  position: fixed;  top: 50%;  left: 50%;  transform: translate(-50%, -50%);  font-size:10px;  background-color: #ffffff;  width: 100%;  max-width: 500px;  height: 80%;  overflow-y: scroll;  padding: 10px;}
+.close {position: sticky;  top: 10px;  float: right;padding: 5px;background-color: red;color: white;}
+.stickytooltip {box-shadow: 5px 5px 8px #818181; -webkit-box-shadow: 5px 5px 8px #818181; -moz-box-shadow: 5px 5px 8px #818181; display:none; position:absolute; border:5px solid black; padding:4px; background:white; z-index:3000;}
+.stickytooltip .stickystatus {background:black; color:white; padding:5px; text-align:center; font:bold 11px Arial;}
